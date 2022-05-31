@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="30.~2.E{/O4Chk(JVKuV">Angle_Boussole</variable></variables><block type="device_gesture_event" id="0~kiv.9#mFgd~t6U_W3$" x="-2" y="-350"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="input_compass_calibrate" id="4ZCyA5xmv0_j7f}Ea,95"/></statement></block><block type="device_button_event" id="f;2~g*9:K%[5;56hruCF" x="-3" y="-195"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="k}^lvHxv?AQLk|9a4Z[B"><next><block type="device_show_number" id="Q7%LZ6FCGTxyl$}|-hD_"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="Ve_mjF_SY?4=tmrJNKBE"/></value></block></next></block></statement></block><block type="device_forever" id="DdT~xoL(0KmU5gH6!w_O" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="ezhLflD=oo;o^G:G7$v~"><field name="VAR" id="30.~2.E{/O4Chk(JVKuV">Angle_Boussole</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="N3SAHm+{JB(m(5(Mh-2e"/></value><next><block type="controls_if" id="WE7(%e*T08xC!is4H1lI"><mutation elseif="3" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=";DpC4FNZxDONR~f72KDX"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="4ilxtoG|@)~82QmI=*-f"><field name="VAR" id="30.~2.E{/O4Chk(JVKuV">Angle_Boussole</field></block></value><value name="B"><shadow type="math_number" id=".%m:jH=WQQC`|At(kvTv"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~5vlhRqMx,LE6/`TwR`n"><field name="LEDS">`
+        # . . # . 
+        # # . # . 
+        # . # # . 
+        # . . # . 
+        # . . # .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="nYy%;bT_WJWB}Z~KUq5~"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Q9oD]_t$wP!A6.p-D}1,"><field name="VAR" id="30.~2.E{/O4Chk(JVKuV">Angle_Boussole</field></block></value><value name="B"><shadow type="math_number" id="jD9@_G8%.OEyD5rKg5Lx"><field name="NUM">270</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="J-U`8f|-oc5k#.0w1fT."><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # # . . . 
+        # . . . . 
+        # # # . .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="h$XN,eGDexnq!j^=dtO?"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="k@u5Sn?`KK[VaYf7Xo7*"><field name="VAR" id="30.~2.E{/O4Chk(JVKuV">Angle_Boussole</field></block></value><value name="B"><shadow type="math_number" id="v%4uYF_-iJ{9IrTYHqX/"><field name="NUM">90</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="HuXTI$I4xU4|gL[:85Mg"><field name="LEDS">`
+        # # # # . 
+        # . . # . 
+        # . . # . 
+        # . . # . 
+        # # # # .
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="V;.bz-i`q}bkatS{;W}G"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="84^eMM[/]c9T^2V7Hn_6"><field name="VAR" id="30.~2.E{/O4Chk(JVKuV">Angle_Boussole</field></block></value><value name="B"><shadow type="math_number" id=",JY{?e#wX$qDKY#3=!s_"><field name="NUM">180</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="@%CoMC#N:v:-@IS-uFqN"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        # # # . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="}FT#8+KrB_*Y9SS^Ue%$"><field name="i">IconNames.No</field></block></statement></block></next></block></statement></block></xml>
